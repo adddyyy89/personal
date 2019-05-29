@@ -14,15 +14,32 @@
 			}
 			
 			.body {
+				padding-top: 20px;
 				text-align: center;
 			}
 			
 			.nav {
 				text-align: left;
+				font-family: monospace;
 			}
 			
 			.footer {
 				text-align: center;
+			}
+			
+			.my-name {
+				font-size: x-large;
+				font-weight: 600;
+			}
+			
+			.my-education {
+				font-size: small;
+				font-weight: 300;
+				font-style: italic;
+			}
+			
+			.my-email {
+				font-size: small;
 			}
 		</style>
 	</head>
@@ -30,17 +47,21 @@
 		<div class="container">
 			<div class="row header">
 				<div class="col-md-2 col-xs-2">
-					Pic
+					<img src="/images/Anand-photo.jpg" alt="Pic"></img>
 				</div>
 				<div class="col-md-10 col-xs-10">
-					Title
+					<div class="my-name">Anandkumar Gautam</div>
+					<div class="my-education">Bachelors in Computer Science and Technology</div>
+					<div class="my-email"><a href="mailto:akg.bit@gmail.com">akg.bit@gmail.com</a></div>
 				</div>
 			</div>
 			<div class="row body">
 				<div class="col-md-2 col-xs-2 nav">
 					<ul>
-						<li>Home</li>
-						<li>Resume</li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Resume</a></li>
+						<li><a href="#">Quotes</a></li>
+						<li><a href="#">Blogs</a></li>
 					</ul>
 				</div>
 				<div class="col-md-10 col-xs-10">
@@ -50,7 +71,7 @@
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 col-xs-12">
-					Footer
+					"Building a better mousetrap merely results in smarter mice." - Charles Darwin.
 				</div>
 			</div>
 		</div>
