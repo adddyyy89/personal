@@ -1,0 +1,14 @@
+.my-name {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.my-education {
+    font-size: small;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.my-email {
+    font-size: small;
+}
