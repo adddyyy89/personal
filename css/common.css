@@ -19,3 +19,9 @@
     max-width:100%;
     max-height:100%;
 }
+
+.titleDiv {
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 100px;
+}
