@@ -1,11 +1,18 @@
 $(document).ready(function() {
 
-    // Calculate net years as a round figure
-    var currentDate = now();
-    console.log(currentDate);
+    var calculateTotalExpYrRound = function() {
+        var now = new Date();
+        var past = new Date("2013-02-26");
+        var nowYear = now.getFullYear();
+        var pastYear = past.getFullYear();
+        var age = nowYear - pastYear;
+    
+        return age;
+    };
 
-    $("#totalExpYrRound").text("6");
+    $("#totalExpYrRound").text(calculateTotalExpYrRound());
 
-    $("#calculateInfosysTotalExpMonths").text("16");
+    
 
+    $("#calculateInfosysTotalExpMonths").text("1 year 4");
 });
